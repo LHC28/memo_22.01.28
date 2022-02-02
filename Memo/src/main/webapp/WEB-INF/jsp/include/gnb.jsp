@@ -6,6 +6,7 @@
 		<h1 class="text-white p-4 font-weight-bold">메모 게시판</h1>
 	</div>
 	<div class="login-info d-flex justify-content-end">
+		<%-- 가운데 들어가는 내용 --%>
 		
 		<%-- 로그인이 된 경우 --%>
 		<c:if test="${not empty userName}">

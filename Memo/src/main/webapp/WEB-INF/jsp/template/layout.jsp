@@ -15,9 +15,11 @@
 </head>
 <body>
 	<div id="wrap">
+		<%-- 헤더 부분 특정 jsp가져오기 --%>
 		<header class="bg-secondary">
 			<jsp:include page="../include/gnb.jsp" />
 		</header>
+		<%-- 가운데 들어가는 부분 --%>
 		<section class="contents">
 			<jsp:include page="../${viewName}.jsp" />
 		</section>
